@@ -21,15 +21,9 @@ description: Analyze customs visibility, trade records, supplier signals, sourci
 3. 判断记录是否足够支持结构化结论
 4. 明确哪些结论只能写成线索而非定论
 
-## Guardrails
-- “完整供应商名单”“年度进口额”“完整产品流向”通常需要付费库支持
-- 若只有零散记录，不得写成“完整供应链画像”
-- 不得把 HS 近似品类自动等同于完全同类产品
-- 若数据不足，必须写 `[PAID SOURCE REQUIRED]` 或 `[NOT VERIFIED]`
-
-## Evidence
-- 事实标签：`[FACT]` `[INFERENCE]` `[NOT FOUND]` `[NOT VERIFIED]` `[PAID SOURCE REQUIRED]`
-- 证据等级：`A` `B` `C` `D`
+## Shared References
+- 海关与供应链规则：`../references/evidence-rules.md`
+- 编排顺序：`../references/workflow.md`
 
 ## Output Template
 ```markdown

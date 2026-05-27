@@ -22,15 +22,9 @@ description: Verify a target company's legal identity, website legitimacy, domai
 4. 核验地图地址、街景、地理痕迹
 5. 汇总经营实在性信号与限制
 
-## Guardrails
-- 地图、卫星图、街景只能支持存在性和经营痕迹，不能直接证明产能
-- 第三方目录站不能单独作为主体成立的充分证据
-- 若官网品牌与注册主体不一致，必须提示“主体错位风险”
-- 无公开注册库时，不得假装已核验成功
-
-## Labels
-- 事实标签：`[FACT]` `[INFERENCE]` `[NOT FOUND]` `[NOT VERIFIED]`
-- 证据等级：`A` `B` `C` `D`
+## Shared References
+- 共用证据规则：`../references/evidence-rules.md`
+- 编排顺序：`../references/workflow.md`
 
 ## Output Template
 ```markdown

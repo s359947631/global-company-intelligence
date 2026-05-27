@@ -21,20 +21,9 @@ description: Screen IP, litigation, regulatory, sanctions, and credit-dispute si
 3. 只保留公开、业务相关、可自然使用的话题切口
 4. 将风险结论与对话建议分开输出
 
-## Hook Rules
-- 仅使用公开、合法、业务相关的信息
-- 优先关注交付周期、认证合规、供应链、本地化、项目难点、扩张方向
-- 可提供“提问钩子”，但不得做私人画像、心理操控或假熟人式话术
-- 不得收集或输出家庭、宗教、政治、健康、住址、非公开偏好等信息
-
-## Guardrails
-- 招聘评价、论坛投诉、社媒争议默认可信度有限，需降级表达
-- 未查到诉讼或处罚，不等于绝对无风险
-- 话题钩子不得建立在未验证项目或未验证联系身份上
-
-## Evidence
-- 事实标签：`[FACT]` `[INFERENCE]` `[NOT FOUND]` `[NOT VERIFIED]`
-- 证据等级：`A` `B` `C` `D`
+## Shared References
+- 风险与话题切口规则：`../references/evidence-rules.md`
+- 编排顺序：`../references/workflow.md`
 
 ## Output Template
 ```markdown

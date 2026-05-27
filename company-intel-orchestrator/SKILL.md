@@ -28,17 +28,10 @@ description: Coordinate a multi-agent company due diligence workflow by scoping 
 4. 审查所有子结果，识别冲突、过度推断、来源缺失
 5. 统一降级表达，整理最终报告
 
-## Review Gates
-- 不得将子 agent 的推断提升为事实
-- 不得将企业自述项目自动写成已落地
-- 不得将未经交叉验证的私人联系方式写成已确认有效联系方式
-- 不得将零散贸易记录包装为完整供应链结论
-- 若关键结论存在冲突，降级为 `[NOT VERIFIED]`
-- 若重要字段缺失，明确写 `[NOT FOUND]` 或 `[PAID SOURCE REQUIRED]`
-
-## Shared Labels
-- 事实标签：`[FACT]` `[INFERENCE]` `[CLAIM ONLY]` `[NOT FOUND]` `[NOT VERIFIED]` `[PAID SOURCE REQUIRED]`
-- 证据等级：`A` `B` `C` `D`
+## Shared References
+- 共用证据规则：`../references/evidence-rules.md`
+- 编排与审查门槛：`../references/workflow.md`
+- 最终报告模板：`../templates/master-report-template.md`
 
 ## Required Sub-Agent Return Format
 ```markdown
@@ -58,21 +51,3 @@ description: Coordinate a multi-agent company due diligence workflow by scoping 
 - 单列“冲突与缺口”
 - 只保留对决策有帮助且可回链的结论
 - 把“值得开发/风险高/需人工补查”分开写
-
-## Output Structure
-```markdown
-## 0. 报告元信息
-## 1. 执行摘要与评级
-## 2. 检索边界与方法
-## 3. 企业主体核验
-## 4. 数字足迹与经营实在性
-## 5. 人员与联络方式
-## 6. 业务、规模与商业模式
-## 7. 项目真实性核验
-## 8. 海关、贸易与供应链
-## 9. IP、诉讼与合规风险
-## 10. 兴趣与对话切入线索
-## 11. 冲突与缺口
-## 12. 战略匹配与开发建议
-## 13. Sources
-```

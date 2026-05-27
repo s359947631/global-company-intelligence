@@ -32,10 +32,9 @@ description: Identify key decision-makers, validate public business contact chan
 - `L2`：两个独立公开来源一致
 - `L3`：与官网、公司文件、展会资料或权威职业主页形成闭环
 
-## Guardrails
-- LinkedIn 个人页、Facebook、Instagram、X 等只能证明公开存在，不自动证明当前在职
-- 私人邮箱、WhatsApp、手机号除非闭环验证，不得作为首选触达渠道
-- 不要基于头像、昵称、模糊简介强认定身份
+## Shared References
+- 联系与敏感信息规则：`../references/evidence-rules.md`
+- 编排顺序：`../references/workflow.md`
 
 ## Output Template
 ```markdown

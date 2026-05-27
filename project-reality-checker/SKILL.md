@@ -28,14 +28,9 @@ description: Verify whether a company's claimed projects are merely promotional 
 3. 判断项目处于哪个阶段
 4. 明确哪些只是营销材料，不进入“已落地”结论
 
-## Guardrails
-- 证据等级低于 `B`，不得写“已落地”“已交付”“在运营”
-- 官网案例、宣传册、效果图、转发新闻不等于独立交付证明
-- 若项目名模糊或多地同名，必须提示识别风险
-
-## Evidence
-- 事实标签：`[FACT]` `[INFERENCE]` `[CLAIM ONLY]` `[NOT FOUND]` `[NOT VERIFIED]`
-- 证据等级：`A` `B` `C` `D`
+## Shared References
+- 项目真实性规则：`../references/evidence-rules.md`
+- 编排顺序：`../references/workflow.md`
 
 ## Output Template
 ```markdown
